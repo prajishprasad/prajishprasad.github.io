@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://prajishprasad.github.io/archive.html</loc>
-    <lastmod>2022-11-17T10:14:46.155Z</lastmod>
-  </url>
-  <url>
     <loc>https://prajishprasad.github.io/blog.html</loc>
-    <lastmod>2022-11-17T10:14:46.881Z</lastmod>
+    <lastmod>2022-11-17T11:04:51.073Z</lastmod>
   </url>
   <url>
     <loc>https://prajishprasad.github.io/index.html</loc>
-    <lastmod>2022-11-17T10:14:47.450Z</lastmod>
+    <lastmod>2022-11-17T11:04:51.753Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prajishprasad.github.io/posts/post-with-code/index.html</loc>
+    <lastmod>2022-11-17T11:04:52.307Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prajishprasad.github.io/posts/welcome/index.html</loc>
+    <lastmod>2022-11-17T11:04:52.836Z</lastmod>
   </url>
 </urlset>
