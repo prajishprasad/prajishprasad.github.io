@@ -1,14 +1,18 @@
 ---
-title: "prajishprasad.github.io"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Prajish Prasad"
+image: prajish_photo.jpeg
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: rounded
+  links:
+    - icon: twitter
+      href: https://twitter.com/_prajish
+    - icon: linkedin
+      href: https://www.linkedin.com/in/prajish-prasad-93210551/
+
 ---
+<style>body {text-align: justify}</style>
+I am an Assistant Professor in the Computer Science department at [FLAME University, Pune](https://flame.edu.in/).  My primary research interest is in the interdisciplinary area of **computer science education**. I draw inspiration from learning sciences, software engineering and computing education literature for my research. 
 
-
+Interested to know more about computing education research? Check this [blog post](https://iitbcomputingedresearch.wordpress.com/getting-started/) to learn more about this interdisciplinary area.
