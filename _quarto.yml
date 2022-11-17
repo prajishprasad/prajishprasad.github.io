@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Prajish Prasad"
+  site-url: https://prajishprasad.github.io
+  description: Prajish's web space
+  navbar:
+    right:
+      - text: Blog
+        href: blog.qmd
+      # - icon: github
+      #   href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com/_prajish
+      - icon: linkedin
+        href: https://www.linkedin.com/in/prajish-prasad-93210551/
+format:
+  html:
+    theme: 
+    - journal
+    - theme.scss
+
+
+
