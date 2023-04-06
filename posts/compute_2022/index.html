@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Prajish Prasad">
+
+<title>Prajish Prasad - COMPUTE 2022</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Prajish Prasad</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/_prajish"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/prajish-prasad-93210551/"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#compute-day-1" id="toc-compute-day-1" class="nav-link active" data-scroll-target="#compute-day-1">COMPUTE Day 1</a>
+  <ul class="collapse">
+  <li><a href="#activities-of-acm-india-and-isigcse" id="toc-activities-of-acm-india-and-isigcse" class="nav-link" data-scroll-target="#activities-of-acm-india-and-isigcse">Activities of ACM India and iSIGCSE</a></li>
+  <li><a href="#hemangee-kapoor---dei-activities" id="toc-hemangee-kapoor---dei-activities" class="nav-link" data-scroll-target="#hemangee-kapoor---dei-activities">Hemangee Kapoor - DEI Activities</a></li>
+  <li><a href="#teaching-challenges--" id="toc-teaching-challenges--" class="nav-link" data-scroll-target="#teaching-challenges--">Teaching Challenges -</a>
+  <ul class="collapse">
+  <li><a href="#teaching-sampling-through-an-activity---shabana" id="toc-teaching-sampling-through-an-activity---shabana" class="nav-link" data-scroll-target="#teaching-sampling-through-an-activity---shabana">Teaching Sampling through an activity - Shabana</a></li>
+  <li><a href="#teaching-deadlocks-with-experimental-demonstration---nitin-patil" id="toc-teaching-deadlocks-with-experimental-demonstration---nitin-patil" class="nav-link" data-scroll-target="#teaching-deadlocks-with-experimental-demonstration---nitin-patil">Teaching Deadlocks with experimental demonstration - Nitin Patil</a></li>
+  <li><a href="#hashing---ullas" id="toc-hashing---ullas" class="nav-link" data-scroll-target="#hashing---ullas">Hashing - Ullas</a></li>
+  <li><a href="#table-design-in-relational-databases---bhumika-shah" id="toc-table-design-in-relational-databases---bhumika-shah" class="nav-link" data-scroll-target="#table-design-in-relational-databases---bhumika-shah">Table Design in Relational Databases - Bhumika Shah</a></li>
+  </ul></li>
+  <li><a href="#learning-from-iitms-data-science-program" id="toc-learning-from-iitms-data-science-program" class="nav-link" data-scroll-target="#learning-from-iitms-data-science-program">Learning from IITM’s Data Science Program</a>
+  <ul class="collapse">
+  <li><a href="#why-create-such-a-program" id="toc-why-create-such-a-program" class="nav-link" data-scroll-target="#why-create-such-a-program">Why create such a program</a></li>
+  <li><a href="#how-did-we-create-such-a-program" id="toc-how-did-we-create-such-a-program" class="nav-link" data-scroll-target="#how-did-we-create-such-a-program">How did we create such a program</a></li>
+  </ul></li>
+  <li><a href="#ai-assisted-programming---sriram-rajamani" id="toc-ai-assisted-programming---sriram-rajamani" class="nav-link" data-scroll-target="#ai-assisted-programming---sriram-rajamani">AI Assisted Programming - Sriram Rajamani</a>
+  <ul class="collapse">
+  <li><a href="#case-study-1---heterogenous-data-extraction" id="toc-case-study-1---heterogenous-data-extraction" class="nav-link" data-scroll-target="#case-study-1---heterogenous-data-extraction">Case Study 1 - Heterogenous Data Extraction</a></li>
+  <li><a href="#case-study-2--" id="toc-case-study-2--" class="nav-link" data-scroll-target="#case-study-2--">Case Study 2 -</a></li>
+  <li><a href="#case-study-3---safety" id="toc-case-study-3---safety" class="nav-link" data-scroll-target="#case-study-3---safety">Case Study 3 - Safety</a></li>
+  </ul></li>
+  <li><a href="#teaching-through-comics---ullas" id="toc-teaching-through-comics---ullas" class="nav-link" data-scroll-target="#teaching-through-comics---ullas">Teaching through Comics - Ullas</a></li>
+  <li><a href="#blocklist---sridhar-c" id="toc-blocklist---sridhar-c" class="nav-link" data-scroll-target="#blocklist---sridhar-c">BlockList - Sridhar C</a></li>
+  <li><a href="#gita-gosavi---reskilling-and-upskilling" id="toc-gita-gosavi---reskilling-and-upskilling" class="nav-link" data-scroll-target="#gita-gosavi---reskilling-and-upskilling">Gita Gosavi - Reskilling and Upskilling</a></li>
+  <li><a href="#design-and-documentation-skills-of-industry-ready-cs-students---mrityunjay-kumar" id="toc-design-and-documentation-skills-of-industry-ready-cs-students---mrityunjay-kumar" class="nav-link" data-scroll-target="#design-and-documentation-skills-of-industry-ready-cs-students---mrityunjay-kumar">Design and Documentation Skills of Industry Ready CS Students - Mrityunjay Kumar</a></li>
+  </ul></li>
+  <li><a href="#compute-day-2" id="toc-compute-day-2" class="nav-link" data-scroll-target="#compute-day-2">COMPUTE Day 2</a>
+  <ul class="collapse">
+  <li><a href="#occe-award-winner---smruthi-ranjan-sarangi-iit-delhi" id="toc-occe-award-winner---smruthi-ranjan-sarangi-iit-delhi" class="nav-link" data-scroll-target="#occe-award-winner---smruthi-ranjan-sarangi-iit-delhi">OCCE Award winner - Smruthi Ranjan Sarangi, IIT Delhi</a></li>
+  <li><a href="#programmming-pedagogy-and-assessment-in-the-era-of-aiml" id="toc-programmming-pedagogy-and-assessment-in-the-era-of-aiml" class="nav-link" data-scroll-target="#programmming-pedagogy-and-assessment-in-the-era-of-aiml">Programmming Pedagogy and Assessment in the Era of AI/ML</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">COMPUTE 2022</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Prajish Prasad </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="compute-day-1" class="level1">
+<h1>COMPUTE Day 1</h1>
+<section id="activities-of-acm-india-and-isigcse" class="level2">
+<h2 class="anchored" data-anchor-id="activities-of-acm-india-and-isigcse">Activities of ACM India and iSIGCSE</h2>
+<p>Teacher Partnership Program (TPP) - experts jointly teaching with local college faculty</p>
+<p>Certificate program in CS education - organized by IIIT Delhi - Prof.&nbsp;Pankaj Jalote</p>
+<p>ARCS - Conference for CS Researchers</p>
+<p>CSPathshala - CTiS</p>
+<p>ISiGCSE - started in 2015 - Teaching Video Challenge - share best teaching practices</p>
+</section>
+<section id="hemangee-kapoor---dei-activities" class="level2">
+<h2 class="anchored" data-anchor-id="hemangee-kapoor---dei-activities">Hemangee Kapoor - DEI Activities</h2>
+<p>Diversity - One is a minority and faces challenges - One is a majority and has empathy - Organisation</p>
+<p>Diversity - encourage differences in any sense Equity - fairness Inclusion - creating an environment where diversity thrives Interesting comment by Mrityunjay about how diversity can be enforced top-down (e.g.&nbsp;organization creates policies for a more diverse workplace in recruitment). But for an inclusive environment, we have to work bottom-up - just enforcing policies will not do, but an inclusive environment is created by making sure that individuals and teams create a more inclusive environment at an individual and group level.</p>
+<p>ACM DIE committee was formed - to identify and coordinate activities in creating a more diverse and inclusive environment, and to foster adoption of best practices.</p>
+<ul>
+<li>Monitor diversity among different people - members, keynote speakers, conference participation</li>
+<li>Build awareness in governance structure</li>
+<li>Suggest new strategies and practices from other SIGs</li>
+</ul>
+<p>Data Collection and Analysis - understand if committees are participating</p>
+<p>Diversity in Publication and Reviews - cliques in reviews, Double blind review, CACM - Collusion rings</p>
+<p><strong>Awards</strong> - People do not have access to mentors - Endorsers don’t know how to prepare endorsements - help them in creating endorsement packages</p>
+<p>DEI Demographic Initiative - streamline DEI related questions</p>
+<p>CS2023 Instructional Practices Initiative - embed DEI practices in CS2023 curriculum</p>
+<p>Words, temrs that can be offensive - other words which can be used in its place</p>
+<p><strong>Diversity in CS Education</strong> - subject topics - Project themes - Project team members - different grades - Catering to academically weaker students - remedial classes? - Special needs - Access to study material Design projects - design centered</p>
+</section>
+<section id="teaching-challenges--" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-challenges--">Teaching Challenges -</h2>
+<section id="teaching-sampling-through-an-activity---shabana" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-sampling-through-an-activity---shabana">Teaching Sampling through an activity - Shabana</h3>
+<p>small balls/items of same shape but different colours - show students how sampling works - increase the number of balls in subsequent samples</p>
+</section>
+<section id="teaching-deadlocks-with-experimental-demonstration---nitin-patil" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-deadlocks-with-experimental-demonstration---nitin-patil">Teaching Deadlocks with experimental demonstration - Nitin Patil</h3>
+<p>Circular wait using 3 terminals in PostgreSQL</p>
+</section>
+<section id="hashing---ullas" class="level3">
+<h3 class="anchored" data-anchor-id="hashing---ullas">Hashing - Ullas</h3>
+<p>Concepts of Hash function - collision, chaining, linear probing - examples of a parking lot</p>
+</section>
+<section id="table-design-in-relational-databases---bhumika-shah" class="level3">
+<h3 class="anchored" data-anchor-id="table-design-in-relational-databases---bhumika-shah">Table Design in Relational Databases - Bhumika Shah</h3>
+<p>Gamified approach - scenarios, teams</p>
+</section>
+</section>
+<section id="learning-from-iitms-data-science-program" class="level2">
+<h2 class="anchored" data-anchor-id="learning-from-iitms-data-science-program">Learning from IITM’s Data Science Program</h2>
+<section id="why-create-such-a-program" class="level3">
+<h3 class="anchored" data-anchor-id="why-create-such-a-program">Why create such a program</h3>
+<p>Only 8-10 lakhs out of 84 lakhs join engineering. Not a large number - most students join a BSc, BA, BCom</p>
+<p>Issues - extreme competition - High cost - quality - private institutions - Low employability - High drop off</p>
+<p>What IITM does - - Large scale - High quality - Any background Premise - “Anybody can learn to code” GATE, JEE - goal is to eliminate students NPTEL - 2400+ courses - goal - provide quality education at scale</p>
+<p>Questions/Issues - - How to assuredly produce employable skilled graduates at a larger scale? - Faculty time - Keep fees affordable - Accessible to all who might be interested – may not have a strong background - Protect the brand of institutions</p>
+</section>
+<section id="how-did-we-create-such-a-program" class="level3">
+<h3 class="anchored" data-anchor-id="how-did-we-create-such-a-program">How did we create such a program</h3>
+<p>(Refer Slide) Hire instructors who run the course - faculty oversee Evaluations - equal (if not, more) rigorous CGPA - Nice bell curve Social impact</p>
+</section>
+</section>
+<section id="ai-assisted-programming---sriram-rajamani" class="level2">
+<h2 class="anchored" data-anchor-id="ai-assisted-programming---sriram-rajamani">AI Assisted Programming - Sriram Rajamani</h2>
+<p>Two paradigms - Rule based (logical rules) and ML Models. Problems are becoming a mix of both paradigms. E.g. - Windows - Search Engine?? Can both paradigms coexist? Express domain knowledge as rules. Training data is available as well.</p>
+<section id="case-study-1---heterogenous-data-extraction" class="level3">
+<h3 class="anchored" data-anchor-id="case-study-1---heterogenous-data-extraction">Case Study 1 - Heterogenous Data Extraction</h3>
+<p>Formed documents - e.g.&nbsp;- Trip documents - created by machines, consumed by humans - heterogenous format. Formats can change. Goal: Predictable and robust extraction. Use ML models along with domain specific language rules</p>
+</section>
+<section id="case-study-2--" class="level3">
+<h3 class="anchored" data-anchor-id="case-study-2--">Case Study 2 -</h3>
+<p>CoPilot - Large gap between what code generates and what it understands. Augment large language models with guard rules Jigsaw vision (ICSE 2022) - Pre-processing, post-processing, transformations (Learning from feedback)</p>
+<p>Pre-processing - Prompt the large language model Post-processing - Do automatic transformations based on output of tests - e.g.&nbsp;Variable name transformation, argument transformation, AST to AST transformation - Get learner feedback - feed it back into the model</p>
+<p>Question - Implications for teachers - Build variants/on top of CoPilot - Students are prompted - one incorrect attempt - give hints - don’t give them the answer Maybe not teach code at all!</p>
+</section>
+<section id="case-study-3---safety" class="level3">
+<h3 class="anchored" data-anchor-id="case-study-3---safety">Case Study 3 - Safety</h3>
+<p>Didn’t get much info</p>
+<p>“Program + Model” engineering - a new discipline - Domain Knowledge + Training Data Convert domain knowledge to training data –&gt; lossy Combine domain ontology with training data</p>
+</section>
+</section>
+<section id="teaching-through-comics---ullas" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-through-comics---ullas">Teaching through Comics - Ullas</h2>
+<p>Challenge #1 - ? Challenge #2 - How to teach? #Challenge 3 - No monologues</p>
+<p>Comics + Computer Science - Engage students, ease teachers’ role</p>
+<p>Logicomix - Sangho Suh - comics Example - Parameter passing 2 groups - with/without comics</p>
+</section>
+<section id="blocklist---sridhar-c" class="level2">
+<h2 class="anchored" data-anchor-id="blocklist---sridhar-c">BlockList - Sridhar C</h2>
+<ul>
+<li>Linked List - difficult, used in interviews, use pointers Game - match patterns Evaluation with 15 students Start off with the game - instructor led activity</li>
+</ul>
+</section>
+<section id="gita-gosavi---reskilling-and-upskilling" class="level2">
+<h2 class="anchored" data-anchor-id="gita-gosavi---reskilling-and-upskilling">Gita Gosavi - Reskilling and Upskilling</h2>
+<p>LxP platform</p>
+</section>
+<section id="design-and-documentation-skills-of-industry-ready-cs-students---mrityunjay-kumar" class="level2">
+<h2 class="anchored" data-anchor-id="design-and-documentation-skills-of-industry-ready-cs-students---mrityunjay-kumar">Design and Documentation Skills of Industry Ready CS Students - Mrityunjay Kumar</h2>
+<p>Less that 4% of graduates are employable at startups and product companies What does a skillful graduating student do? - Problem solving, communicating, collaborating. Looking at problem solving</p>
+<p>Design skills - Abstraction, Decomposition, Precision</p>
+<p>RQ 1 - Do they produce good quality design? RQ 2 - Do they articulate their design well? RQ 3 - Does performance ….</p>
+<p>Activity - Produce a design for Tic-tac-toe Rubric - - Design quality (SWEBOK) - Expression quality - Diversity (Expression types), Density</p>
+<p>Results - Expression quality is not great, design quality is poor</p>
+<p>Automated Grading and Generation of FSMs</p>
+</section>
+</section>
+<section id="compute-day-2" class="level1">
+<h1>COMPUTE Day 2</h1>
+<section id="occe-award-winner---smruthi-ranjan-sarangi-iit-delhi" class="level2">
+<h2 class="anchored" data-anchor-id="occe-award-winner---smruthi-ranjan-sarangi-iit-delhi">OCCE Award winner - Smruthi Ranjan Sarangi, IIT Delhi</h2>
+<p>Teaching outdated - 8085 Greater formalization of Computer Architecture - <a href="basiccomparch.com">basiccomparch.com</a></p>
+<p>Main theme - connecting computer architecture concepts to other ideas/concepts in computer science</p>
+<p>Modern Processor is inspired from the Turing machine</p>
+<p>How do you teach assembly language - focus on the logic Computer Architecture - connect it to asymptotic notations - different adders</p>
+<p>Focus on completeness rather than market standards Connect Motherboard-level I/O stack to Networking Protocols</p>
+<p><a href="advcomparch.com">advcomparch.com</a></p>
+<p>Graph based abstractions - Tejas Simulators - cse.iitd</p>
+<p><strong>Excursions with CBSE</strong> - Revamped syllabus in 2018 - Focus on computational thinking, Python, Visual programming - Class 9th, 10th</p>
+<p>Arts, Commerce students - Data Science curriculum - numpy, pandas</p>
+<p>Changing Curricula - Changing ecosystem - students, teachers, Coaching institutes</p>
+</section>
+<section id="programmming-pedagogy-and-assessment-in-the-era-of-aiml" class="level2">
+<h2 class="anchored" data-anchor-id="programmming-pedagogy-and-assessment-in-the-era-of-aiml">Programmming Pedagogy and Assessment in the Era of AI/ML</h2>
+<p>How can we adapt our curriculum - What does it mean for CS1 pedagogy and assessment?</p>
+<p>How should we change teaching, assessment?</p>
+<p>Current curriculum - task, knowledge, skill, disposition LOs focussing on creating code/writing programs</p>
+<p>Meaning of “writing programs” has changed</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
