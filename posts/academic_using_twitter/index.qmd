@@ -2,7 +2,7 @@
 title: "Getting started with Twitter as an Academic"
 description: ""
 author: "Prajish Prasad"
-date: ""
+date: "4/6/2023"
 draft: false
 ---
 <style>body {text-align: justify}</style>
