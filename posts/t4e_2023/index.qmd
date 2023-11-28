@@ -1,5 +1,5 @@
 ---
-title: "T4E 2023: Framing Education as a Contextual and Cultural Endeavor"
+title: "T4E 2023: Framing Education as an Incremental, Contextual and Cultural Endeavor"
 description: ""
 author: "Prajish Prasad"
 date: "11/28/2023"
