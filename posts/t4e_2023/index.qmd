@@ -1,0 +1,101 @@
+---
+title: "T4E 2023: Framing Education as a Contextual and Cultural Endeavor"
+description: ""
+author: "Prajish Prasad"
+date: "11/28/2023"
+draft: false
+---
+The [Technology for Education](https://etsociety.org/t4e2023/) conference was organized by the [EdTech Society](https://etsociety.org/), and was held at IIT Bombay from November 23rd to November 26th 2023. I was really looking forward to attend the conference, as I wanted to meet and catch up with a lot of people. The "talking" and "catching up" resulted in missing out on many paper sessions! However, there were still a lot of ideas and insights to glean from the talks and discussion.
+
+Here are some of them.
+
+## Paulo Blikstein - Transforming Maker Education into a Platform for Cultural Enrichment and Social Imagination 
+> There is no "final formula" for education. There is always a perenial battle of design and re-design. Education is incremental.
+
+
+> We need to transition from the "information transmission" model to the "enriching reinterpretation and reconstruction" model.
+
+
+> It is very difficult to remove spaces
+
+Paulo was refering to the advantage of creating designated "spaces" (e.g. a makerspace room) in a school. Even though curricula, activities and teachers change, a space once allocated remains for a long time. 
+
+> Most educational interventions do not get implemented because teachers are afraid.
+
+> Idea: Introduce a new kind of teacher - **"a pedagogical redesign teacher"** to partner with teachers to integrated making into the curriculum
+
+The "fear of failure" is a valid concern that teachers have in introducing a new activity in their classroom. The "pedagogical redesign teacher" partners with curriculum teachers to redesign activities, and hence can alleviate curriculum teachers' concerns of failing.
+
+![Clay making in Brazil involves a lot of rituals and social rules, and non-human entities such as the "Mother of Clay"](clay_making_paulo.png)
+
+
+> Documenting how people makes things in their own context brings out the cultural richness involved in making things. There are non-traditional practices that can inform learning of making in classrooms. 
+
+(Paulo was talking about this in Brazilian contexts;seems to be possible in India, which has a rich diversity in terms of making).
+
+![The plant burns at the same temperature as the baking of the cookies in this oven. Hence, the plant acts as a thermometer. These communities have a lot of scientific knowledge embeded in their making practices.](kiln_making_cookies_paulo.png)
+
+> Making can be done for survival and creativity, but also for "sprituality", "aesthetic enjoyment", "identity affirmation", "political organization", and "cultural transmission"
+
+How can we re-imagine making for these purposes?
+
+The entire keynote video can be found [here](https://www.youtube.com/watch?v=yNOZQY-lysg).
+
+## Wenli Chen - Computer-Supported Collaborative Argumentation: Technological and Pedagogical Design
+
+> There are no separate ICT teachers. All teachers are ICT teachers.
+
+> The Singapore government requires that every student should have a personal learning device (PLD). Hence, if teachers say - "Don't switch on your laptops" in the classroom, it is politically incorrect, as they would be going against the government mandate.
+
+This is an interesting case of how top-level policies can influence grass root implementations and behaviours.
+
+> EdTech is never a solved problem. It constantly evolves
+
+> Analytics of learning vs. Analytics for learning - insights from data can be used by students to inform their own learning
+
+
+![The APPLE TREE system for collaborative argumentation](apple_tree_wenli.png)
+
+The entire keynote video can be found [here](https://www.youtube.com/watch?v=y28I3PkYZcI).
+
+## Amina Charania - Teacher Professional Development in the Indian government school system
+
+> There are two prominent models of teacher development - the Cascade Model and the Nested Approach. The cascade model involves training the teacher, who then trains the next set of teachers and so on. The nested approach involves the initial trainers maintaining contact upto the last level.
+
+
+> Idea: **Early mentors** - Teachers who completed the course content well before time were asked to be mentors to the others who were part of the same course. Such early mentors may have completed the course not just because of their ability, but also due to other factors such as more experience, exposure, and more access to infrastructure.
+
+> In teacher professional development, provide content that is relevant to teachers' immediate contexts.
+
+> Constantly acknowledge teachers in peer groups, as well as state and national levels.
+
+> Provide flexible accreditation to teachers in the form of certificates, badges etc.
+
+The entire keynote video can be found [here](https://www.youtube.com/watch?v=OJYTVIC5C0I).
+
+## Panel - Mainstreaming EdTech Innovations in India
+
+[Dr. T. G. Lakshmi](https://www.linkedin.com/in/dr-t-g-lakshmi-1ab91349/) moderated an excellent panel on - Navigating the EdTech Landscape: A Panel Discussion on Mainstreaming EdTech Innovations in India. The panelists were:
+
+1. Nirmal Patel - CEO of Smart Paper and Chief Data Scientist at Playpower Labs
+2. Mandar Kulkarni - Co Founder of Gatuvit and The Labs
+3. Ritesh Agarwal - VP at Educational Initiatives
+4. Veenita Shah - Head Research & Strategy at Tata ClassEdge
+
+Here are some salient quotes from the panel presentations and discussions.
+
+> We don't need more solutions; we need solutions used in the right way
+
+> How do you make EdTech that works rather than technology that shines?
+
+> Effective implementation (of EdTech interventions on the ground) cannot be envisioned without effective training
+
+> EdTech in India places a lot of emphasis on data collection and assessments, but not much focus on contextualisation and teacher training.
+
+> Context is important, especially in India. Context involves not only contextualising **content** (e.g. pizza vs. roti vs. dosa), but also **delivery** (how to deliver solutions to urban vs rural populations)
+
+> EdTech solutions should cater to 4 types of teachers - those with (1) high motivation and high competence, (2) high motivation but low competence, (3) low motivation but high competence and (4) low motivation and low competence  
+
+
+I came back from the conference with a renewed hope that EdTech in India is moving in the right direction - it's not just about profits and providing solutions to the masses, but in understanding the complexities and nuances that are needed in providing an enriching learning experience to the next generation of learners in India. These are exciting times for EdTech in India, and I'm glad that I am getting to experience this first-hand and contribute in small ways towards this grand vision of improving Indian education. Can't wait to see what T4E 2024 has in store!
+
