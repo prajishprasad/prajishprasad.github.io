@@ -2,8 +2,8 @@
 title: "ACM CompEd and COMPUTE 2023: Bridging the Local and the Global"
 description: ""
 author: "Prajish Prasad"
-date: "12/20/2023"
-draft: true
+date: "12/31/2023"
+draft: false
 ---
 <style>body {text-align: justify}</style>
 
