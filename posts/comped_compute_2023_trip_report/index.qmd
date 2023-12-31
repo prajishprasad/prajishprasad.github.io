@@ -11,7 +11,7 @@ The first ACM computing education conference I attended in India was [COMPUTE 20
 
 I was looking forward to connect with people from India, who I met in previous COMPUTE conferences, and also folks who I got to meet and interact from other SIGCSE conferences. CompEd and COMPUTE had a nice mix of the Indian and the global - a lot of problems and solutions in computing education does translate to the Indian context. On the other hand, there are so many interesting problems to tackle owing to the richness and diversity of India, and the conference led to some interesting discussions on these lines.
 
-I arrived late for CompEd, so I missed the first day's keynote and morning sessions. And unfortunately, I couldn't attend many other sessions. Here are some learnings, ideas and takeaways from the sessions I attended.
+I arrived late for CompEd, so I missed the first day's keynote and morning sessions. And unfortunately, I couldn't attend many other sessions. Here are some learnings, ideas and takeaways from the sessions I attended (I have interspersed some ideas💡in between along with my reflections).
 
 ### Teaching Programmers to Think of Program Dynamics
 Aamod Sane introduced the trace-first paradigm in his presentation. Students fail in small programs as they do not understand program dynamics i.e. the underlying execution of the program. So instead of starting with the static aspects of a program, like the program text, the idea is to make students construct a trace - which is basically modelling the sequence of values of variables over time. This forms a table like structure as shown in the figure below. 
